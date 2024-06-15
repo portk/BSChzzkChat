@@ -8,12 +8,13 @@ namespace BSChzzkChat.Src
     class GetSettings
     {
         private string filePath = ".\\Settings.ini";
-        private string beatSaberPath = "";
 
         public static string ChannelId { get; set; } = "";
-        public static string CustomSongPath { get; set; } = "";
+        private string beatSaberPath = "";
         public static string RequestWord { get; set; } = "!bsr";
         public static int RequestMaxCount { get; set; } = 5;
+
+        public static string CustomSongPath { get; set; } = "";
 
         // ini파일 사용 준비
         // string
