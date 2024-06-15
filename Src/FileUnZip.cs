@@ -81,6 +81,7 @@ namespace BSChzzkChat.Src
             }
 
             WriteLog($"{songInfo[0]} {songInfo[1]}\r\n{songInfo[2]} [{songInfo[3]}]");
+            Clipboard.SetText(songInfo[0]);
         }
 
         private void WriteLog(string msg)
